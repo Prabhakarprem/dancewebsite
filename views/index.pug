@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html
+  head
+    title world dance academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      ul
+        div#logo
+            img(src="/static/logo1.png")
+            | WDA
+        li #[a(href="/") home]
+        li #[a(href="/") about]
+        li #[a(href="/") Contact Us]
+        li #[a(href="/") services]
+        li #[a(href="/") class info]
+
+
+    section#introsection 
+      div welcome to world dance academy
+      div.small live love dance repeat
+      
+    section#missionsection
+      h2 our mission 
+      div.card
+        h3 dance performance
+        div.card-box
+          div.card-img
+            img(src="/static/22.png")     
+          div.card-content
+            p this is the best dance acadmy in the world  
+      div.card
+        h3 dance work
+        div.card-box
+          div.card-img
+            img(src="/static/22.png")     
+          div.card-content
+            p this is the best dance acadmy in the world  
+      div.card
+        h3 dance live
+        div.card-box
+          div.card-img
+            img(src="/static/22.png")     
+          div.card-content
+            p this is the best dance acadmy in the world  
+
+    section#sponsorssection 
+      h2 our sponsors
+      div#sponsors
+        img(src="/static/logo1.png", alt="sponsors image", class="spimage")
+        img(src="/static/logo1.png", alt="sponsors image", class="spimage")
+        img(src="/static/logo1.png", alt="sponsors image", class="spimage")
+        img(src="/static/logo1.png", alt="sponsors image", class="spimage")
+    footer#footer
+      | copyright Ⓒ 2019 dance acadamy.com | all rights reserved
+    script
+      include ../static/index.js

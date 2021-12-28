@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+  
+block style
+    style
+      include ../static/style.css
+
+block content
+   
+
+    section#introsection 
+      div welcome to world dance academy
+      div.small live love dance repeat
+      
+    section#missionsection
+      h2 our mission 
+      div.card
+        h3 dance performance
+        div.card-box
+          div.card-img
+            img(src="/static/22.png")     
+          div.card-content
+            p this is the best dance acadmy in the world  
+      div.card
+        h3 dance work
+        div.card-box
+          div.card-img
+            img(src="/static/22.png")     
+          div.card-content
+            p this is the best dance acadmy in the world  
+      div.card
+        h3 dance live
+        div.card-box
+          div.card-img
+            img(src="/static/22.png")     
+          div.card-content
+            p this is the best dance acadmy in the world  
+
+    section#sponsorssection 
+      h2 our sponsors
+      div#sponsors
+        img(src="/static/logo1.png", alt="sponsors image", class="spimage")
+        img(src="/static/logo1.png", alt="sponsors image", class="spimage")
+        img(src="/static/logo1.png", alt="sponsors image", class="spimage")
+        img(src="/static/logo1.png", alt="sponsors image", class="spimage")
