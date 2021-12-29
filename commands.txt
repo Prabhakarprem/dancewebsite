@@ -36,6 +36,9 @@ only changes to the ... See configuration variable column.status for option synt
 Creating a user account with SSH key ... 
 --graphics none - means it is a headless RHEL 8.4 VM. ... --memory 4096 - means it uses 4096 MB RAM.
 
+(rsa)The SSH protocol uses public key cryptography for authenticating hosts and users.
+ The authentication keys, called SSH keys, are created using the keygen program.
+
 9-tail <path to id_rsa.pug> # Add this key to your GitHub account 
 To configure your account on GitHub.com to use your new (or existing) SSH key,
  you'll also need to add the key to your account.
