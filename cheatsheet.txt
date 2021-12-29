@@ -1,3 +1,0 @@
-touchgitignore
-git init
-git add-----------------*/
