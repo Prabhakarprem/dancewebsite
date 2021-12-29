@@ -1,9 +1,41 @@
-touch .gitignore
-git config --global user.name harry
-git config --global user .email youremail@example.com
-git init
-git add
-git commit -m "Initial commit"
-git status # just to see 
-ssh-keygen -t rsa 4096 -c "youremail@example.com"
-tail <path to id_rsa.pug> # Add this key to your GitHub account 
+1-touch .gitignore
+
+gitignore file is a list of files to ignore when pushing files to Github.com . 
+It tells git which files should be ignored when changes are staged (added) and committed. ... gitignore file by running touch . gitignore 
+
+2-git config --global user.name harry
+
+To set your Git username, run the git config –global user.name command
+
+3-git config --global user .email youremail@example.com
+
+To set your Git gmail, run the git config –global user .email command
+
+4-git init
+
+git init is one way to start a new project with Git. To start a repository, use either git init or git clone - not both.
+To initialize a repository, Git creates a hidden directory called . 
+git . That directory stores all of the objects and refs that Git uses and creates as a part of your project's history.
+
+5-git add
+
+git add. The git add command adds a change in the working directory to the staging area.
+ It tells Git that you want to include updates to a particular file in the next commit.
+
+6-git commit -m "Initial commit"
+
+Copy several characters of the commit ID of the initial commit and run the command git checkout <commit-id> . exaqmple <add-idname>
+
+7-git status # just to see 
+
+Using "dirty" ignores all changes to the work tree of submodules, 
+only changes to the ... See configuration variable column.status for option syntax.
+
+8-ssh-keygen -t rsa 4096 -c "youremail@example.com"
+
+Creating a user account with SSH key ... 
+--graphics none - means it is a headless RHEL 8.4 VM. ... --memory 4096 - means it uses 4096 MB RAM.
+
+9-tail <path to id_rsa.pug> # Add this key to your GitHub account 
+To configure your account on GitHub.com to use your new (or existing) SSH key,
+ you'll also need to add the key to your account.
